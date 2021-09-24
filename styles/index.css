@@ -1,0 +1,13 @@
+body {
+    background-color: #1a0033;
+}
+
+.main_text h1 {
+    color: #ffffff;
+}
+
+.main_text {
+    width: 50%;
+    margin: 0 auto;
+    border: solid 2px red;
+}
