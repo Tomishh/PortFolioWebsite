@@ -1,13 +1,41 @@
-body {
-    background-color: #1a0033;
+@font-face {
+  font-family: 'roboto-thin';
+  src: url("fonts/roboto/Roboto-Thin.ttf") format("truetype");
 }
 
-.main_text h1 {
-    color: #ffffff;
+@font-face {
+  font-family: 'roboto-black';
+  src: url("fonts/roboto/Roboto-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'roboto-normal';
+  src: url("fonts/roboto/Roboto-Light.ttf") format("truetype");
+}
+
+body {
+  background-color: #04001D;
 }
 
 .main_text {
-    width: 50%;
-    margin: 0 auto;
-    border: solid 2px red;
+  margin: 0 auto;
+  width: 50%;
 }
+
+.main_text h2 {
+  color: #FFFFff;
+  font-family: roboto-thin;
+}
+
+.middle_text h2 {
+  display: inline;
+  color: #ffffff;
+  font-family: roboto-normal;
+}
+
+.middle_text h1 {
+  display: inline;
+  color: #ffffff;
+  font-family: roboto-black;
+}
+/*# sourceMappingURL=index.css.map */
