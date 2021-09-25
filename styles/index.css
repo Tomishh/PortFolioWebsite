@@ -13,29 +13,45 @@
   src: url("fonts/roboto/Roboto-Light.ttf") format("truetype");
 }
 
+aside {
+  width: 10%;
+}
+
 body {
   background-color: #04001D;
+  width: 90%;
+  height: 90%;
 }
 
 .main_text {
-  margin: 0 auto;
+  margin: 15% auto;
   width: 50%;
+  height: 30%;
 }
 
-.main_text h2 {
-  color: #FFFFff;
-  font-family: roboto-thin;
+.external_text h2 {
+  font-family: roboto-normal;
+  color: #ffffff;
+  font-size: 40px;
+  text-shadow: 0 0 0.25em #56ca5673;
+}
+
+.middle_text h1, .middle_text h2 {
+  color: #ffffff;
+  display: inline;
 }
 
 .middle_text h2 {
-  display: inline;
-  color: #ffffff;
   font-family: roboto-normal;
+  font-size: 50px;
+  text-shadow: 0 0 0.15em #3fca3fb7;
 }
 
 .middle_text h1 {
-  display: inline;
-  color: #ffffff;
   font-family: roboto-black;
+  font-size: 60px;
+  -webkit-filter: blur(0.007em);
+          filter: blur(0.007em);
+  text-shadow: 0 0 0.25em #3fca3f8a;
 }
 /*# sourceMappingURL=index.css.map */
